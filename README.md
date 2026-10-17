@@ -1,4 +1,4 @@
-# AI-Assisted Fraud Analysis Agent — Demonstration Project
+# AI-Assisted Fraud Analysis Agent - Demonstration Project
 
 ## Purpose
 A small, local portfolio prototype showing how an AI-assisted workflow could structure a synthetic fraud investigation while keeping evidence, uncertainty, and human review explicit.
