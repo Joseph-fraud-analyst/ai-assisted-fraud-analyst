@@ -1,0 +1,115 @@
+[
+  {
+    "case_id": "CASE-1001",
+    "transaction_id": "TX-9001",
+    "amount_gbp": 840.0,
+    "channel": "card_present",
+    "observed_indicators": [
+      "Device is not recognised in the supplied record.",
+      "Location differs from the customer's usual pattern in the supplied record.",
+      "Transaction amount is at least GBP 500; amount alone does not establish fraud."
+    ],
+    "confirmed_facts": [],
+    "uncertainties": [
+      "Customer confirmation and chargeback evidence do not establish the transaction outcome.",
+      "One or more risk indicators are present, but indicators are not proof of fraud."
+    ],
+    "case_notes_as_supplied": "New device; location differs from usual pattern",
+    "recommended_next_steps": [
+      "Review the approved customer-contact and authentication process; do not contact automatically.",
+      "Review supporting device, authentication, and transaction history evidence."
+    ],
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "automated_action_taken": false,
+    "disclaimer": "Synthetic demonstration only; indicators are not a fraud determination."
+  },
+  {
+    "case_id": "CASE-1002",
+    "transaction_id": "TX-9002",
+    "amount_gbp": 34.5,
+    "channel": "ecommerce",
+    "observed_indicators": [],
+    "confirmed_facts": [
+      "Customer confirmation is recorded as positive in the supplied case data."
+    ],
+    "uncertainties": [],
+    "case_notes_as_supplied": "Customer confirms transaction",
+    "recommended_next_steps": [
+      "Record the evidence reviewed and close only in line with authorised procedures."
+    ],
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "automated_action_taken": false,
+    "disclaimer": "Synthetic demonstration only; indicators are not a fraud determination."
+  },
+  {
+    "case_id": "CASE-1003",
+    "transaction_id": "TX-9003",
+    "amount_gbp": 1290.0,
+    "channel": "ecommerce",
+    "observed_indicators": [
+      "Device is not recognised in the supplied record.",
+      "Transaction amount is at least GBP 500; amount alone does not establish fraud."
+    ],
+    "confirmed_facts": [
+      "A chargeback is recorded as received in the supplied case data."
+    ],
+    "uncertainties": [
+      "One or more risk indicators are present, but indicators are not proof of fraud."
+    ],
+    "case_notes_as_supplied": "Chargeback received; customer confirmation not yet obtained",
+    "recommended_next_steps": [
+      "Review the approved customer-contact and authentication process; do not contact automatically.",
+      "Review supporting device, authentication, and transaction history evidence.",
+      "Check the chargeback record and relevant dispute evidence."
+    ],
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "automated_action_taken": false,
+    "disclaimer": "Synthetic demonstration only; indicators are not a fraud determination."
+  },
+  {
+    "case_id": "CASE-1004",
+    "transaction_id": "TX-9004",
+    "amount_gbp": 210.0,
+    "channel": "card_present",
+    "observed_indicators": [
+      "Location differs from the customer's usual pattern in the supplied record."
+    ],
+    "confirmed_facts": [],
+    "uncertainties": [
+      "Customer confirmation and chargeback evidence do not establish the transaction outcome.",
+      "One or more risk indicators are present, but indicators are not proof of fraud."
+    ],
+    "case_notes_as_supplied": "Location mismatch; other evidence not available",
+    "recommended_next_steps": [
+      "Review the approved customer-contact and authentication process; do not contact automatically.",
+      "Review supporting device, authentication, and transaction history evidence."
+    ],
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "automated_action_taken": false,
+    "disclaimer": "Synthetic demonstration only; indicators are not a fraud determination."
+  },
+  {
+    "case_id": "CASE-1005",
+    "transaction_id": "TX-9005",
+    "amount_gbp": 560.0,
+    "channel": "ecommerce",
+    "observed_indicators": [
+      "Device is not recognised in the supplied record.",
+      "Location differs from the customer's usual pattern in the supplied record.",
+      "Transaction amount is at least GBP 500; amount alone does not establish fraud."
+    ],
+    "confirmed_facts": [],
+    "uncertainties": [
+      "Customer confirmation and chargeback evidence do not establish the transaction outcome.",
+      "One or more risk indicators are present, but indicators are not proof of fraud."
+    ],
+    "case_notes_as_supplied": "New device and location mismatch; evidence remains incomplete",
+    "recommended_next_steps": [
+      "Review the approved customer-contact and authentication process; do not contact automatically.",
+      "Review supporting device, authentication, and transaction history evidence."
+    ],
+    "decision": "HUMAN_REVIEW_REQUIRED",
+    "automated_action_taken": false,
+    "disclaimer": "Synthetic demonstration only; indicators are not a fraud determination."
+  }
+]

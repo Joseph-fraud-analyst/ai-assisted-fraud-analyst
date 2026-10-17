@@ -1,0 +1,6 @@
+case_id,customer_id,transaction_id,amount_gbp,channel,device_known,location_consistent,customer_confirmed,chargeback_received,notes
+CASE-1001,CUST-001,TX-9001,840.00,card_present,false,false,false,false,"New device; location differs from usual pattern"
+CASE-1002,CUST-002,TX-9002,34.50,ecommerce,true,true,true,false,"Customer confirms transaction"
+CASE-1003,CUST-003,TX-9003,1290.00,ecommerce,false,true,false,true,"Chargeback received; customer confirmation not yet obtained"
+CASE-1004,CUST-004,TX-9004,210.00,card_present,true,false,false,false,"Location mismatch; other evidence not available"
+CASE-1005,CUST-005,TX-9005,560.00,ecommerce,false,false,false,false,"New device and location mismatch; evidence remains incomplete"
